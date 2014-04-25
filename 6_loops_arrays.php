@@ -1,4 +1,5 @@
 <?php
+//*
 
 //For
 //
@@ -15,11 +16,11 @@ for ($i = 0,  $y = 0; $i < 10; $i++, $y += 2){
     echo "i = $i. y = $y";
 
 }
-
-
+//*/
+//
 //Foreach
 //
-
+/*
 $persons = array('Felipe', 'Alex', 'Essien', 'Vasty');
 
 foreach ($personas as $persona){
@@ -37,9 +38,11 @@ foreach ($personsTvShow as $person => $tvShow){
     echo "A $person le gusta $tvShow";
 }
 
+//*/
 //Application of foreach...Having an array with the soccer champions,
 //display the information
-
+/
+/*
 $soccerChampions = array(
     'countries' => array(
         'Brazil' => array(
@@ -78,9 +81,9 @@ foreach ($soccerChampions['players'] as $player => $data){
     echo $player . ' es originario de ' . $data['country'] . ' y ha anotado ' . $data['goals'] . ' goles en los mundiales.';
 }
 
-
+//*/
 //While
-
+/*
 $i = 0;
 
 while ($i < 20){
@@ -116,10 +119,10 @@ while ($fighter['isAlive']){
     }
     
 }
-
+//*/
 //Do-While
 //
-
+/*
 $flip = '';
 do{
     $coin = rand(0, 1);    
@@ -132,3 +135,4 @@ do{
     
     echo $flip . '<br />';
 }while($flip == 'Sol');
+//*/
