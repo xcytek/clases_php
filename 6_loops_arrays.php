@@ -80,7 +80,15 @@ foreach ($soccerChampions['players'] as $player => $data){
 
 
 //While
-//
+
+$i = 0;
+
+while ($i < 20){
+    echo $i . ', ';
+}
+
+
+//While Application
 //There is a fighter and a punshing machine, each time the machine punch the fighter, the health of the fighter will be
 //decresead by the intensity value of the machine punches. The intensity will be increased with each punch by 1, starting in 1.
 //Display a message when the fighter being defeated.
@@ -109,4 +117,18 @@ while ($fighter['isAlive']){
     
 }
 
+//Do-While
+//
 
+$flip = '';
+do{
+    $coin = rand(0, 1);    
+    if ($coin){
+        $flip = 'Sol';
+    }
+    else{
+        $flip = 'Aguila';
+    }
+    
+    echo $flip . '<br />';
+}while($flip == 'Sol');
