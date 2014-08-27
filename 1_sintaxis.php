@@ -12,6 +12,7 @@
             dasdasdas
             asdasdas
             asdasdasd
+            Son Comentarios Multilineas
             */
 			$minombre = 'alex';
 			echo $minombre;
