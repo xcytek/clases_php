@@ -18,12 +18,12 @@ class Geometria{
   	const PI = 3.1416;
   	
     function mostrarPi(){
-        echo self::PI;
+        return self::PI;
     }
 }
 
 $circulo = new Geometria();
-$circulo->mostrarPi();
+echo $circulo->mostrarPi();
 
 echo '<br />';
 
